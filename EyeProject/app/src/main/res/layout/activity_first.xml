@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".First">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="วัดสายตา"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="วัดตาบอดสี"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="วัดสายตาเอียง"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="เกี่ยวกับแอพพลิเคชั่น"
+        android:id="@+id/button4"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

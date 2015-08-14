@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/image14" />
+
+    <TextView
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:text="ลากเส้นจาก X ถึง X"
+        android:id="@+id/num"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#ff000000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="left"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ย้อนกลับ"
+            android:id="@+id/back"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="หน้าแรก"
+            android:id="@+id/first"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+</LinearLayout>
